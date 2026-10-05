@@ -1,13 +1,144 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <title>My Sample Website</title>
+
+    <!-- External CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>Hello, World!</h1>
-    <h2>Welcome to my website</h2>
-    <p>This is a simple paragraph on my website.</p>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+
+            <div class="logo">
+                MyWebsite
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+            <h1>Welcome to My Website</h1>
+
+            <p>
+                A simple and modern website created using
+                HTML and CSS.
+            </p>
+
+            <a href="#services" class="btn">
+                Explore Services
+            </a>
+        </div>
+
+    </section>
+
+
+    <!-- About Section -->
+    <section id="about" class="about">
+
+        <h2>About Us</h2>
+
+        <p>
+            We create simple, beautiful and responsive websites
+            using modern web technologies.
+        </p>
+
+    </section>
+
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+
+        <h2>Our Services</h2>
+
+        <div class="service-container">
+
+            <div class="service-card">
+                <h3>Web Design</h3>
+                <p>
+                    Creating attractive and user-friendly
+                    website designs.
+                </p>
+            </div>
+
+            <div class="service-card">
+                <h3>Web Development</h3>
+                <p>
+                    Building fast and responsive websites
+                    using modern technologies.
+                </p>
+            </div>
+
+            <div class="service-card">
+                <h3>SEO</h3>
+                <p>
+                    Improving website visibility and
+                    search engine rankings.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+
+        <h2>Contact Us</h2>
+
+        <form>
+
+            <input
+                type="text"
+                placeholder="Your Name"
+                required
+            >
+
+            <input
+                type="email"
+                placeholder="Your Email"
+                required
+            >
+
+            <textarea
+                placeholder="Your Message"
+                rows="5"
+                required
+            ></textarea>
+
+            <button type="submit">
+                Send Message
+            </button>
+
+        </form>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>
+            &copy; 2026 MyWebsite. All Rights Reserved.
+        </p>
+    </footer>
+
 </body>
 </html>
