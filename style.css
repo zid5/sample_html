@@ -157,7 +157,11 @@ section h2 {
 ========================= */
 
 .services {
-    background-color: #f4f4f4;
+    background: linear-gradient(
+        135deg,
+        #667eea,
+        #764ba2
+    );
 }
 
 .service-container {
